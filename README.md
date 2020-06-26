@@ -33,6 +33,16 @@ Observable - it notifies whenever there is a change in the object
 
 Whenever there is a change in the object,the subscribe method in called. So you should Manually run the change detector inside the subscribe method to update the view.
 
+Behavior Subject :  
+    There is 4 types of subjects
+  1. Subject
+  2. BehaviorSubject
+  3. RelaySubject
+  4. AsyncSubject
+
+
+
+
 
 
 
