@@ -8,5 +8,8 @@ Every component has its own Change Detector
 
 Binding does not work for a component, if its change Detector is dettached.
 
+Change Detector strategies  -> Default , onPush
+
+
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angularchangedetector)

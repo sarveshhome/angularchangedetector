@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef,Input } from '@angular/core';
 
 @Component({
   selector: 'app-count',
@@ -8,6 +8,8 @@ import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 export class CountComponent implements OnInit {
   title :string = 'I am Count Component';
   height =100;
+
+  @Input() Counter;
   constructor(private cd: ChangeDetectorRef) {
     //this.cd.detach();
    }

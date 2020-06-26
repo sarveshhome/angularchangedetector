@@ -1,6 +1,7 @@
 <hello name="{{ name }}"></hello>
-<h2>Chnage Detector Demo</h2>
+<h2>Change Detector Demo</h2>
+<button (click)='incCont()' >Increate Count Value</button>
 <hr>
-<app-count></app-count>
+<app-count [Counter]='Counter'></app-count>
 <hr>
-<app-child></app-child>
+<!-- <app-child></app-child> -->
