@@ -4,4 +4,8 @@ The main purpose of Change Detector is to make sure that data in the component a
 
 The Change Detector detect the component for the data change and re-render the view to project the updated data.
 
+Every component has its own Change Detector
+
+
+
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angularchangedetector)
