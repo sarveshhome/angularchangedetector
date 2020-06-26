@@ -13,7 +13,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(){
-
   }
   incCont(){
     this.Counter.count = this.Counter.count +1;
