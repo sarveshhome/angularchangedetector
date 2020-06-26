@@ -19,4 +19,22 @@ For onPush strategy,CD runs only when a new reference is passed
 
 Or pass a new reference of the Counter object 
 
+Or pass a new reference of the @Input 
+
+
+# Manually Run CD  ?
+
+When and where
+
+Observable 
+
+
+Observable - it notifies whenever there is a change in the object
+
+Whenever there is a change in the object,the subscribe method in called. So you should Manually run the change detector inside the subscribe method to update the view.
+
+
+
+
+
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angularchangedetector)

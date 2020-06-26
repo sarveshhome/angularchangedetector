@@ -15,8 +15,12 @@ export class AppComponent implements OnInit {
   ngOnInit(){
   }
   incCont(){
-    this.Counter.count = this.Counter.count +1;
-    console.log(this.Counter.count);
+    // this.Counter.count = this.Counter.count +1;
+    // console.log(this.Counter.count);
+    this.Counter={
+      count: this.Counter.count +1
+    }
+
   }
 
 }
