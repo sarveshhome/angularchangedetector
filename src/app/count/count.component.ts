@@ -1,9 +1,11 @@
-import { Component, OnInit, ChangeDetectorRef,Input } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef,Input, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'app-count',
   templateUrl: './count.component.html',
-  styleUrls: ['./count.component.css']
+  styleUrls: ['./count.component.css'],
+  // changeDetection:ChangeDetectionStrategy.Default
+  changeDetection:ChangeDetectionStrategy.OnPush
 })
 export class CountComponent implements OnInit {
   title :string = 'I am Count Component';
