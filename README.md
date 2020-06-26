@@ -6,6 +6,7 @@ The Change Detector detect the component for the data change and re-render the v
 
 Every component has its own Change Detector
 
+Binding does not work for a component, if its change Detector is dettached.
 
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angularchangedetector)
