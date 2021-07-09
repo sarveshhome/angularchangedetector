@@ -21,8 +21,7 @@ export class AppComponent implements OnInit {
     this.Counter = new BehaviorSubject({
        count: 0
     })
-  }
-  
+  }  
   incCont(){
     // this.Counter.count = this.Counter.count +1;
     // console.log(this.Counter.count);
